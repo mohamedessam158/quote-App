@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+      width: 100%;
+}
+
+.home .caption{
+   margin-top: 50px;
+    text-align: center;
+}
+
+.home .caption h1{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-bottom: 70px;
+}
+
+.home .caption p{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-block: 20px;
+}
+
+.home .caption button {
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    transition: 1s;
+    margin-block: 20px;
+}
+
+.home .caption button:hover {
+    background-color: green;
+}
